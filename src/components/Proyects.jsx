@@ -47,7 +47,7 @@ export default function ProjectCard() {
                 )}
                 </div>
               </div>
-              <div className="flex w-full lg:flex-row gap-5 font-semibold text-center items-center sm:items-normal">
+              <div className="flex lg:w-full lg:flex-row gap-5 font-semibold text-center items-center justify-center sm:items-normal">
                 <a className="text-[20px] size-fit bg-purple-700 py-2 px-5 rounded-[10px]" target="_blank" href={data.liveLink}>Ver Demo</a>
                 <a className="text-[20px] size-fit bg-purple-700 py-2 px-5 rounded-[10px]" target="_blank" href={data.githubLink}>Ver Codigo</a>
               </div>
