@@ -54,7 +54,7 @@ export default function ProjectCard() {
             </div>
           </div>
           <div className="flex lg:p-0 mask-clip-border">
-            <img src={data.imgSrc} alt={data.imgScreen} className="max-h-96 h-auto object-contain aspect-video rounded-2xl mask-clip-border"/>
+            <img src={data.imgSrc} alt={data.imgScreen} className="max-h-96 h-auto object-contain aspect-video rounded-xl mask-clip-border"/>
           </div>
         </article>
       ))}
