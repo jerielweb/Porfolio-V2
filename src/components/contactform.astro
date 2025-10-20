@@ -1,0 +1,91 @@
+---
+import { Image } from "astro:assets";
+
+
+//icons
+import WhatsApp from './../assets/icons/whatsapp.svg'
+import Mail from './../assets/icons/mailsend.svg'
+import Telegram from './../assets/icons/telegram.svg'
+import Phone from './../assets/icons/phone.svg'
+import Copy from './../assets/icons/copy.svg'
+---
+<section class="flex min-h-[650px] text-purple-100 flex-col gap-6 justify-center w-full items-center">
+  <h1 class="text-center font-extrabold text-5xl">CONTACTOS</h1>
+  <div class="flex flex-col lg:flex-row">
+    <article class="flex min-h-[562px] max-w-[320px] border-3 items-center justify-center border-purple-100 rounded-2xl text-purple-50 p-7 flex-col mx-8">
+      <h1 class="text-bold text-2xl mb-7 text-center">Mandame Un Mensaje</h1>
+      <form target="_blank" action="https://formsubmit.co/jerielweb@outlook.es" method="POST" class="flex flex-col size-full gap-3">
+        <input type="hidden" name="_template" value="box">
+        <input type="hidden" name="_subject" value="Nuevo Mensaje De Tu Portafolio">
+        <div class="flex gap-3 flex-col">
+          <div class="flex gap-3">
+            <input type="text" name="Nombre" class="border-2 rounded-[10px] p-2 w-full border-purple-100 outline-none" placeholder="Nombre" required>
+            <input type="text" name="Compañia" class="border-2 rounded-[10px] p-2 w-full border-purple-100 outline-none" placeholder="Compañia" required>
+          </div>
+
+          <div>
+            <input type="email" name="Correo" class="border-2 rounded-[10px] p-2 w-full border-purple-100 outline-none" placeholder="Correo" required>
+          </div>
+          <div>
+            <textarea name="Mensaje" id="" rows="10" placeholder="Mensaje" class="border-2 rounded-[10px] p-2 w-full border-purple-100" required></textarea>
+          </div>
+        </div>
+        <div>
+          <button type="submit" class="gap-2 transition active:scale-93 cursor-pointer flex-row-reversetext-[20px] w-full bg-purple-700 py-2 px-5 rounded-[10px]">Enviar</button>
+        </div>
+      </form>
+    </article>
+
+    <article class="flex min-h-[550px] max-w-[320px] border-3 items-center justify-center border-purple-100 rounded-2xl text-purple-50 p-5 flex-col text-center mx-8 gap-3">
+      <h1 class="text-bold text-2xl text-center">Contactame</h1>
+      <div class="flex flex-col w-full h-fit items-center justify-center">
+          <div class=" flex flex-col mb-1">
+              <h3 class="text-xl text-semibold">Correo electronico</h3>
+              <p>jerielweb@outlook.es</p>
+          </div>
+
+          <div class="flex flex-col w-full items-center justify-center gap-3">
+
+              <a href="mailto:jerielweb@outlook.es"  class="flex gap-2 transition active:scale-93 flex-row-reverse text-[20px] px-4 py-2 items-center justify-center bg-purple-700 w-full rounded-[10px]">
+                Copiar Correo
+                <Image src={Mail} alt="Enviar Correo" class="size-9">
+              </a>
+
+              <a onclick="navigator.clipboard.writeText('jerielweb@outlook.es')" class="flex gap-2 transition active:scale-93 flex-row-reverse text-[20px] px-4 py-2 items-center justify-center bg-purple-700 w-full rounded-[10px] cursor-copy">
+                Enviar Correo
+                  <Image src={Copy} alt="" class="size-9">
+              </a>
+          </div>
+      </div>
+
+      <div class="flex flex-col h-fit w-full text-center justify-center items-center">
+        <div class=" flex flex-col mb-1">
+            <h3 class="text-xl text-semibold">Numero de telefono</h3>
+            +506 8923 7369
+        </div>
+
+        <div class="flex flex-col w-full justify-between gap-2 ">
+            <a href="tel:+50689237369" class="flex gap-2 transition active:scale-93 flex-row-reverse text-[20px] px-4 py-2 items-center justify-center bg-purple-700 w-full rounded-[10px]">
+              Llamar
+                <Image  src={Phone} alt="" class="size-9">
+            </a>
+
+            <a onclick="navigator.clipboard.writeText('+506 8923 7369')"  class="flex gap-2 transition active:scale-93 flex-row-reverse text-[20px] px-4 py-2 items-center justify-center bg-purple-700 w-full rounded-[10px] cursor-copy">
+              Copiar Numero
+                <Image src={Copy} alt="" class="size-9">
+            </a>
+
+            <a href="https://wa.me/50689237369" class="flex gap-2 transition active:scale-93 flex-row-reverse text-[20px] px-4 py-2 items-center justify-center bg-purple-700 w-full rounded-[10px]">
+              Enviar A WhatsApp
+                <Image src={WhatsApp} alt="" class="size-9">
+            </a>
+
+            <a href="https://t.me/Oboe_boy" class="flex gap-2 transition active:scale-93 flex-row-reverse text-[20px] px-4 py-2 items-center justify-center bg-purple-700 w-full rounded-[10px]">
+              Mensaje a Telegram
+                <Image src={Telegram} alt="" class="size-9">
+            </a>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>

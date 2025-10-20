@@ -1,6 +1,5 @@
 import proyectsData from "./../data/proyects"
 
-
 export default function ProjectCard() {
   return (
     <section id="proyects" className='flex min-h-[650px] text-purple-100 flex-col gap-2 justify-center w-full items-center'>
@@ -13,7 +12,6 @@ export default function ProjectCard() {
                 className="text-4xl font-bold"
                 >{data.title}</h2>
               <div>
-                {/* Lógica para descripción: Correcta */}
                 {data.description instanceof Array ? (
                             data.description.map((desc, i) => (
                                 <p key={i} >{desc}</p>
@@ -49,8 +47,8 @@ export default function ProjectCard() {
                 </div>
               </div>
               <div className="flex lg:w-full lg:flex-row gap-5 font-semibold text-center items-center justify-center sm:justify-normal sm:items-normal">
-                <a className="text-[20px] size-fit bg-purple-700 py-2 px-5 rounded-[10px]" target="_blank" href={data.liveLink}>Ver Demo</a>
-                <a className="text-[20px] size-fit bg-purple-700 py-2 px-5 rounded-[10px]" target="_blank" href={data.githubLink}>Ver Codigo</a>
+                <a className="text-[20px] size-fit bg-purple-700 py-2 px-5 rounded-[10px] transition active:scale-93" target="_blank" href={data.liveLink}>Ver Demo</a>
+                <a className="text-[20px] size-fit bg-purple-700 py-2 px-5 rounded-[10px] transition active:scale-93" target="_blank" href={data.githubLink}>Ver Codigo</a>
               </div>
             </div>
           </div>
