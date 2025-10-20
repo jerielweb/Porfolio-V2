@@ -47,14 +47,14 @@ export default function ProjectCard() {
                 )}
                 </div>
               </div>
-              <div className="flex lg:w-full lg:flex-row gap-5 font-semibold text-center">
+              <div className="flex lg:w-full lg:flex-row gap-5 font-semibold text-center items-center justify-center sm:justify-normal sm:items-normal">
                 <a className="text-[20px] size-fit bg-purple-700 py-2 px-5 rounded-[10px]" target="_blank" href={data.liveLink}>Ver Demo</a>
                 <a className="text-[20px] size-fit bg-purple-700 py-2 px-5 rounded-[10px]" target="_blank" href={data.githubLink}>Ver Codigo</a>
               </div>
             </div>
           </div>
           <div className="flex lg:p-0 mask-clip-border">
-            <img src={data.imgSrc} alt={data.imgScreen} className="max-h-96 h-auto object-contain aspect-video rounded-2xl mask-clip-border"/>
+            <img src={data.imgSrc} alt={data.imgScreen} className="max-h-96 h-auto object-contain aspect-video rounded-xl mask-clip-border"/>
           </div>
         </article>
       ))}
