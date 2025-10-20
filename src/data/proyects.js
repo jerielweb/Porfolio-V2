@@ -10,7 +10,6 @@ import CSS from "./../assets/css.svg"
 import JS from "./../assets/js.svg"
 import HTML from "./../assets/html.svg"
 
-
 export const projects = [
   {
     title: 'Oboe Edits',
