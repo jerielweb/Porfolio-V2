@@ -1,11 +1,12 @@
-// src/components/ProjectCard.jsx
 import proyectsData from "./../data/proyects"
+
+
 export default function ProjectCard() {
   return (
-    <section id="proyects" className='flex min-h-[650px] text-purple-100 flex-col gap-5 justify-center w-full items-center'>
+    <section id="proyects" className='flex min-h-[650px] text-purple-100 flex-col gap-2 justify-center w-full items-center'>
       <h2 className="text-center font-extrabold text-5xl">Proyectos más Recientes</h2>
       {proyectsData.map ((data, index) => (
-        <article key={index} className='flex gap-5 rounded-2xl m-8 overflow-hidden lg:pr-0 lg:pl-0 flex-col-reverse xl:flex-row lg:max-w-6xl xl:h-96 border-3 justify-between items-center hover:scale-103 transition duration-200 ease-out'>
+        <article key={index} className='flex gap-2 rounded-2xl m-8 overflow-hidden lg:pr-0 lg:pl-0 flex-col-reverse xl:flex-row lg:max-w-6xl xl:h-96 border-3 justify-between items-center hover:scale-103 transition duration-200 ease-out'>
           <div className="xl:max-w-lg w-full xl:w-auto flex flex-col h-full p-5">
             <div className="flex h-full flex-col justify-between gap-5">
                 <h2

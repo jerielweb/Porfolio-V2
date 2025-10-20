@@ -4,11 +4,11 @@ import oboeEdits from "./../assets/758shots_so.png"
 import calc from "./../assets/678shots_so.png"
 
 // Tags
-import Astro from "./../assets/astro.svg"
-import ReactJS from "./../assets/react.js.svg"
-import CSS from "./../assets/css.svg"
-import JS from "./../assets/js.svg"
-import HTML from "./../assets/html.svg"
+import Astro from "./../assets/icons/astro.svg"
+import ReactJS from "./../assets/icons/react.js.svg"
+import CSS from "./../assets/icons/css.svg"
+import JS from "./../assets/icons/js.svg"
+import HTML from "./../assets/icons/html.svg"
 
 export const projects = [
   {
@@ -27,7 +27,7 @@ export const projects = [
     imgSrc: calc.src,
     imgScreen: 'Captura de pantalla De la calculadora',
     frameworks: ['HTML', 'CSS', 'JavaScript'],
-    tags: [JS.src, HTML.src, CSS.src],
+    tags: [HTML.src, CSS.src, JS.src],
     githubLink: 'https://github.com/jerielweb/calculadora',
     liveLink: 'https://jerielweb.github.io/calculadora/'
   }

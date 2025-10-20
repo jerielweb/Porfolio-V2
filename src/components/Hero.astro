@@ -4,16 +4,19 @@ import { Image } from 'astro:assets';
 ---
 
 <section class=" flex flex-col size-full pt-20 min-h-dvh
-justify-center items-center gap-5 lg:flex-row
+justify-center items-center gap-5 lg:flex-row text-balance
 ">
     <div>
-        <Image src={profile} class=" md:size-80 size-60 rounded-full" alt="Foto De Perfil">
+        <Image src={profile} class=" sm:size-80 size-60 rounded-full" alt="Foto De Perfil">
     </div>
     <div>
-        <div class="text-center lg:text-start">
-            <span class="lg:text-3xl text-2xl text-purple-50 font-bold">¡HOLA👋🏾!&nbsp;</span>
-            <span class="lg:text-3xl text-2xl text-purple-50 font-bold">MI NOMBRE ES:</span>
-            <h1 class="font-extrabold text-purple-50 text-4xl">JERIEL BECKFORD PRICE</h1>
+        <div class="flex flex-col w-full items-center text-center lg:items-start">
+            <span class="text-purple-50 text-center font-[500] border border-purple-300 size-fit px-2 rounded-full bg-gradient-to-bl from-violet-400 via-violet-600 to-indigo-900">EN BUSCA DE OPORTUNIDADES</span>
+            <div>
+                <span class="lg:text-3xl text-2xl text-purple-50 font-bold">¡HOLA👋🏾!&nbsp;</span>
+                <span class="lg:text-3xl text-2xl text-purple-50 font-bold">MI NOMBRE ES:</span>
+            </div>
+            <h1 class="font-extrabold text-purple-50 text-4xl mx-3">JERIEL BECKFORD PRICE</h1>
             <h3 class="text-purple-50 font-bold lg:text-2xl mx-2">ESTUDIANTE DESARROLLADOR WEB FRONTEND</h3>
         </div>
         <div class="flex text-purple-50 gap-3 mt-2 text-center font-bold items-center justify-center lg:justify-normal lg:text-start">
