@@ -11,7 +11,7 @@ import Copy from './../assets/icons/copy.svg'
 ---
 <section class="flex min-h-[650px] text-purple-100 flex-col gap-6 justify-center w-full items-center">
   <h1 class="text-center font-extrabold text-5xl">CONTACTOS</h1>
-  <div class="flex flex-col lg:flex-row gap-6">
+  <div class="flex flex-col sm:flex-row gap-6">
     <article class="flex min-h-[562px] max-w-[320px] border-3 items-center justify-center border-purple-100 rounded-2xl text-purple-50 p-7 flex-col mx-8">
       <h1 class="text-bold text-2xl mb-7 text-center">Mandame Un Mensaje</h1>
       <form target="_blank" action="https://formsubmit.co/jerielweb@outlook.es" method="POST" class="flex flex-col size-full gap-3">
@@ -44,14 +44,14 @@ import Copy from './../assets/icons/copy.svg'
               <p>jerielweb@outlook.es</p>
           </div>
 
-          <div class="flex flex-col w-full items-center justify-center gap-3">
+          <div class="flex flex-col w-full items-center justify-center gap-2">
 
-              <a href="mailto:jerielweb@outlook.es"  class="flex gap-2 transition active:scale-93 flex-row-reverse text-[20px] px-4 py-2 items-center justify-center bg-purple-700 w-full rounded-[10px]">
+              <a href="mailto:jerielweb@outlook.es"  class="flex gap-2 transition active:scale-93 flex-row-reverse text-[20px] px-4 py-2 items-center justify-center bg-purple-700 w-full rounded-[10px]" rel="noopener norefered" target="_blank">
                 Enviar Correo
                 <Image src={Mail} alt="Enviar Correo" class="size-9">
               </a>
 
-              <a onclick="navigator.clipboard.writeText('jerielweb@outlook.es')" class="flex gap-2 transition active:scale-93 flex-row-reverse text-[20px] px-4 py-2 items-center justify-center bg-purple-700 w-full rounded-[10px] cursor-copy">
+              <a onclick="navigator.clipboard.writeText('jerielweb@outlook.es')" class="flex gap-2 transition active:scale-93 flex-row-reverse text-[20px] px-4 py-2 items-center justify-center bg-purple-700 w-full rounded-[10px] cursor-pointer" rel="noopener norefered" target="_blank">
                 Copiar Correo
                   <Image src={Copy} alt="" class="size-9">
               </a>
@@ -65,22 +65,22 @@ import Copy from './../assets/icons/copy.svg'
         </div>
 
         <div class="flex flex-col w-full justify-between gap-2 ">
-            <a href="tel:+50689237369" class="flex gap-2 transition active:scale-93 flex-row-reverse text-[20px] px-4 py-2 items-center justify-center bg-purple-700 w-full rounded-[10px]">
+            <a href="tel:+50689237369" class="flex gap-2 transition active:scale-93 flex-row-reverse text-[20px] px-4 py-2 items-center justify-center bg-purple-700 w-full rounded-[10px]" rel="noopener norefered" target="_blank">
               Llamar
                 <Image  src={Phone} alt="" class="size-9">
             </a>
 
-            <a onclick="navigator.clipboard.writeText('+506 8923 7369')"  class="flex gap-2 transition active:scale-93 flex-row-reverse text-[20px] px-4 py-2 items-center justify-center bg-purple-700 w-full rounded-[10px] cursor-copy">
+            <a onclick="navigator.clipboard.writeText('+506 8923 7369')"  class="flex gap-2 transition active:scale-93 flex-row-reverse text-[20px] px-4 py-2 items-center justify-center bg-purple-700 w-full rounded-[10px] cursor-pointer" rel="noopener norefered" target="_blank">
               Copiar Numero
                 <Image src={Copy} alt="" class="size-9">
             </a>
 
-            <a href="https://wa.me/50689237369" class="flex gap-2 transition active:scale-93 flex-row-reverse text-[20px] px-4 py-2 items-center justify-center bg-purple-700 w-full rounded-[10px]">
+            <a href="https://wa.me/50689237369" class="flex gap-2 transition active:scale-93 flex-row-reverse text-[20px] px-4 py-2 items-center justify-center bg-purple-700 w-full rounded-[10px]" rel="noopener norefered" target="_blank">
               Enviar A WhatsApp
                 <Image src={WhatsApp} alt="" class="size-9">
             </a>
 
-            <a href="https://t.me/Oboe_boy" class="flex gap-2 transition active:scale-93 flex-row-reverse text-[20px] px-4 py-2 items-center justify-center bg-purple-700 w-full rounded-[10px]">
+            <a href="https://t.me/Oboe_boy" class="flex gap-2 transition active:scale-93 flex-row-reverse text-[20px] px-4 py-2 items-center justify-center bg-purple-700 w-full rounded-[10px]" rel="noopener norefered" target="_blank">
               Mensaje a Telegram
                 <Image src={Telegram} alt="" class="size-9">
             </a>

@@ -1,4 +1,4 @@
-import proyectsData from "./../data/proyects"
+import proyectsData from "../data/Data.Proyects"
 
 export default function ProjectCard() {
   return (
@@ -47,8 +47,8 @@ export default function ProjectCard() {
                 </div>
               </div>
               <div className="flex lg:w-full lg:flex-row gap-5 font-semibold text-center items-center justify-center sm:justify-normal sm:items-normal">
-                <a className="text-[20px] size-fit bg-purple-700 py-2 px-5 rounded-[10px] transition active:scale-93" target="_blank" href={data.liveLink}>Ver Demo</a>
-                <a className="text-[20px] size-fit bg-purple-700 py-2 px-5 rounded-[10px] transition active:scale-93" target="_blank" href={data.githubLink}>Ver Codigo</a>
+                <a className="text-[20px] size-fit bg-purple-700 py-2 px-5 rounded-[10px] transition active:scale-93" target="_blank" href={data.liveLink} rel="noopener norefered">Ver Demo</a>
+                <a className="text-[20px] size-fit bg-purple-700 py-2 px-5 rounded-[10px] transition active:scale-93" target="_blank" href={data.githubLink} rel="noopener norefered">Ver Codigo</a>
               </div>
             </div>
           </div>

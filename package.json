@@ -7,7 +7,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "build:tailwind": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --minify"
+    "build:tailwind": "npx @tailwindcss/cli -i ./src/styles/global.css -o ./src/output/output.css --minify"
   },
   "dependencies": {
     "@astrojs/react": "^4.4.0",
