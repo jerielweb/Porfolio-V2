@@ -5,14 +5,12 @@ import Proyects from './../components/Proyects'
 import ContactForm from '../components/contactform.astro';
 import About from '../components/About.astro'
 import Skils from '../components/skils.jsx'
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 ---
 
 <Layout title="Jeriel Porfolio | Inicio">
 	<Hero />
 	<About />
-	<Proyects client:load />
-	<Skils client:load/>
+	<Proyects client:visible />
+	<Skils client:visible />
 	<ContactForm client:visible />
 </Layout>
