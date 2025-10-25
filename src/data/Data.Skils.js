@@ -14,7 +14,7 @@
 // import GitHub from "./../assets/icons/github.svg"
 // import bash from "./../assets/icons/terminal.svg"
 // import yarn from "./../assets/icons/yarn-svgrepo-com.svg"
-import { JS, HTML, Astro, ReactJS, CSS, Tailwind, VScode, node, vite, npm, pnpm, cursorAI, git, GitHub, bash, yarn } from "./index"
+import { JS, HTML, Astro, ReactJS, CSS, Tailwind, VScode, node, vite, npm, pnpm, cursorAI, git, GitHub, bash, yarn } from "./index.js"
 export const skilsData = [
     {
         name: 'Astro',

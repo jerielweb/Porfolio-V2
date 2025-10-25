@@ -10,7 +10,7 @@
 // import HTML from "./../assets/icons/html.svg"
 
 
-import { JS, HTML, Astro, ReactJS, CSS, oboeEdits, calc, portfolio } from "./index"
+import { JS, HTML, Astro, ReactJS, CSS, oboeEdits, calc, portfolio } from "./index.js"
 export const projects = [
   {
     title: 'Oboe Edits',
