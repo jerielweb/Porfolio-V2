@@ -7,7 +7,7 @@ import HeaderComponents from './Header.astro'
 
 export const Hero = HeroComponent
 export const Proyects = ProyectsComponent
-export const ContactForm = ContactFormComponen
+export const ContactForm = ContactFormComponent
 export const About = AboutComponent
 export const Skils = SkilsComponent
 export const Header = HeaderComponents
