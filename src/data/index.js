@@ -1,5 +1,6 @@
-/* Importar - Astro/Vite procesa estas rutas y las convierte en objetos. */
-// Tags (usando 'Icon' para el nombre local de la importación)
+/* Importaciones */
+
+// Tags
 import jsIcon from "./../assets/icons/js.svg";
 import htmlIcon from "./../assets/icons/html.svg";
 import astroIcon from "./../assets/icons/astro.svg";
@@ -17,18 +18,18 @@ import gitHubIcon from "./../assets/icons/github.svg";
 import bashIcon from "./../assets/icons/terminal.svg";
 import yarnIcon from "./../assets/icons/yarn-svgrepo-com.svg";
 
-// Screenshots (usando 'Img' para el nombre local de la importación)
+// Screenshots
 import oboeEditsImg from "./../assets/758shots_so.png";
 import calcImg from "./../assets/678shots_so.png";
 import portfolioImg from "./../assets/743shots_so.png";
 
 
-/* Exportar - Exportamos los OBJETOS de imagen que contienen el .src */
+/*Exportaciones*/
 // Tags
 export const JS = jsIcon;
 export const HTML = htmlIcon;
 export const Astro = astroIcon;
-export const ReactJS = reactJSIcon; // Se corrigió el nombre de la variable importada
+export const ReactJS = reactJSIcon;
 export const CSS = cssIcon;
 export const Tailwind = tailwindIcon;
 export const VScode = vscodeIcon;

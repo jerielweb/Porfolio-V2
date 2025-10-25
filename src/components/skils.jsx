@@ -15,7 +15,12 @@ export function Skils()  {
                         target="_blank"
                         href={sk.link}
                         >
-                            <img src={sk.picture} type="image/svg+xml" className="size-27 rounded pointer-events-none aspect-square" alt={sk.name}/>
+                            <img src={sk.picture}
+                            type="image/svg+xml"
+                            className="size-27 rounded pointer-events-none aspect-square"
+                            alt={sk.name}
+                            load="lazy"
+                            />
                             <p className="text-xl font-[500]">{sk.name}</p>
                         </a>
                     </div>

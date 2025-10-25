@@ -35,6 +35,7 @@ export default function ProjectCard() {
                       alt={data.frameworks[p]}
                       itemType="image/svg+xml"
                       src={imgSrc}
+                      load="lazy"
                     />
                   ))
                 ) : (
@@ -42,6 +43,7 @@ export default function ProjectCard() {
                     itemType="image/svg+xml"
                     src={data.tags}
                     alt={`Iconos de tecnologías para ${data.title}`}
+                    load="lazy"
                   />
                 )}
                 </div>
@@ -53,7 +55,11 @@ export default function ProjectCard() {
             </div>
           </div>
           <div className="flex lg:p-0 mask-clip-border">
-            <img src={data.imgSrc} alt={data.imgScreen} className="max-h-96 h-auto object-contain aspect-video rounded-xl mask-clip-border"/>
+            <img 
+            src={data.imgSrc} 
+            alt={data.imgScreen} 
+            className="max-h-96 h-auto object-contain aspect-video rounded-xl mask-clip-border" load="lazy"
+            />
           </div>
         </article>
       ))}
