@@ -1,16 +1,16 @@
-//Screen Shots
- import oboeEdits from "./../assets/758shots_so.png"
- import calc from "./../assets/678shots_so.png"
- import portfolio from "./../assets/743shots_so.png"
+// //Screen Shots
+//  import oboeEdits from "./../assets/758shots_so.png"
+//  import calc from "./../assets/678shots_so.png"
+//  import portfolio from "./../assets/743shots_so.png"
 
-import Astro from "./../assets/icons/astro.svg"
-import ReactJS from "./../assets/icons/react.js.svg"
-import CSS from "./../assets/icons/css.svg"
-import JS from "./../assets/icons/js.svg"
-import HTML from "./../assets/icons/html.svg"
+// import Astro from "./../assets/icons/astro.svg"
+// import ReactJS from "./../assets/icons/react.js.svg"
+// import CSS from "./../assets/icons/css.svg"
+// import JS from "./../assets/icons/js.svg"
+// import HTML from "./../assets/icons/html.svg"
 
 
-// import { JS, HTML, Astro, ReactJS, CSS, oboeEdits, calc, portfolio } from "./index.js"
+import { JS, HTML, ReactJS, CSS, oboeEdits, calc, portfolio } from "./index.js"
 export const projects = [
   {
     title: 'Oboe Edits',
