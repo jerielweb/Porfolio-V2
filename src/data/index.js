@@ -4,7 +4,7 @@ import jsIcon from "./../assets/icons/js.svg";
 import htmlIcon from "./../assets/icons/html.svg";
 import astroIcon from "./../assets/icons/astro.svg";
 import reactJSIcon from "./../assets/icons/react.js.svg";
-import cssIcon from "./../../assets/icons/css.svg"; // <-- ¡Asegúrate de que esta ruta es correcta!
+import cssIcon from "./../assets/icons/css.svg";
 import tailwindIcon from "./../assets/icons/tailwind.svg";
 import vscodeIcon from "./../assets/icons/VScode.svg";
 import nodeIcon from "./../assets/icons/nodeJS.svg";
