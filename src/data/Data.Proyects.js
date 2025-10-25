@@ -1,4 +1,4 @@
-import { JS, HTML, ReactJS, CSS, oboeEdits, calc, portfolio } from "./index.js"
+import { JS, HTML, ReactJS, CSS, oboeEdits, calc, portfolio } from "./../assets/index.js"
 
 export const projects = [
   {
