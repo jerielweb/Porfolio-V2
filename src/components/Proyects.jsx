@@ -34,7 +34,7 @@ export default function ProjectCard() {
                       className="size-12 aspect-square pointer-events-none rounded"
                       alt={data.frameworks[p]}
                       itemType="image/svg+xml"
-                      src={imgSrc.src}
+                      src={imgSrc}
                     />
                   ))
                 ) : (
