@@ -1,4 +1,4 @@
-import { JS, HTML, Astro, ReactJS, CSS, Tailwind, VScode, node, vite, npm, pnpm, cursorAI, git, GitHub, bash, yarn } from "./../assets/index.js"
+import { JS, HTML, Astro, ReactJS, CSS, Tailwind, VScode, node, vite, npm, pnpm, cursorAI, git, GitHub, bash, yarn } from "./../"
 
 export const skilsData = [
     {
