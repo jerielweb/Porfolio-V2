@@ -1,15 +1,16 @@
+// //Screen Shots
+// import oboeEdits from "./../assets/758shots_so.png"
+// import calc from "./../assets/678shots_so.png"
+// import portfolio from "./../assets/743shots_so.png"
 
-//Screen Shots
-import oboeEdits from "./../assets/758shots_so.png"
-import calc from "./../assets/678shots_so.png"
+// import Astro from "./../assets/icons/astro.svg"
+// import ReactJS from "./../assets/icons/react.js.svg"
+// import CSS from "./../assets/icons/css.svg"
+// import JS from "./../assets/icons/js.svg"
+// import HTML from "./../assets/icons/html.svg"
 
-// Tags
-import Astro from "./../assets/icons/astro.svg"
-import ReactJS from "./../assets/icons/react.js.svg"
-import CSS from "./../assets/icons/css.svg"
-import JS from "./../assets/icons/js.svg"
-import HTML from "./../assets/icons/html.svg"
 
+import { JS, HTML, Astro, ReactJS, CSS, oboeEdits, calc, portfolio } from "./index"
 export const projects = [
   {
     title: 'Oboe Edits',
@@ -30,7 +31,17 @@ export const projects = [
     tags: [HTML.src, CSS.src, JS.src],
     githubLink: 'https://github.com/jerielweb/calculadora',
     liveLink: 'https://jerielweb.github.io/calculadora/'
-  }
+  },
+  {
+    title: 'Porfolio V1',
+    description: 'Un proyecto personal hecho destacadamente para el aprendizaje, fue creado durante el curso de JavaScript.',
+    imgSrc: portfolio.src,
+    imgScreen: 'Captura de pantalla De la mi primer portafolio',
+    frameworks: ['HTML', 'CSS', 'JavaScript'],
+    tags: [HTML.src, CSS.src, JS.src],
+    githubLink: 'https://github.com/jerielweb/portfolio',
+    liveLink: 'https://jerielweb.github.io/portfolio'
+  },
 ];
 
 export default projects

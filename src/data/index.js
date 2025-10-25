@@ -1,0 +1,22 @@
+//Tags
+export const JS = "./../assets/icons/js.svg"
+export const HTML = "./../assets/icons/html.svg"
+export const Astro = "./../assets/icons/astro.svg"
+export const ReactJS = "./../assets/icons/react.js.svg"
+export const CSS = "./../assets/icons/css.svg"
+export const Tailwind = "./../assets/icons/tailwind.svg"
+export const VScode = "./../assets/icons/VScode.svg"
+export const node = "./../assets/icons/nodeJS.svg"
+export const vite = "./../assets/icons/vite.svg"
+export const npm = "./../assets/icons/npm.svg"
+export const pnpm = "./../assets/icons/pnpm-3.svg"
+export const cursorAI = "./../assets/icons/cursorai.svg"
+export const git = "./../assets/icons/git.svg"
+export const GitHub = "./../assets/icons/github.svg"
+export const bash = "./../assets/icons/terminal.svg"
+export const yarn = "./../assets/icons/yarn-svgrepo-com.svg"
+
+//ScreenShots
+export const oboeEdits = "./../assets/758shots_so.png"
+export const calc = "./../assets/678shots_so.png"
+export const portfolio = "./../assets/743shots_so.png"
