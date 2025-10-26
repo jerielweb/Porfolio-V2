@@ -1,4 +1,7 @@
-// Tags
+import HeroProfile from "./images/228623785.png"
+import CVDocument from "./docs/BeckfordJerielResume.pdf"
+
+// Icons
 import jsIcon from "./icons/js.svg"
 import htmlIcon from "./icons/html.svg"
 import astroIcon from "./icons/astro.svg"
@@ -15,6 +18,10 @@ import gitIcon from "./icons/git.svg"
 import gitHubIcon from "./icons/github.svg"
 import bashIcon from "./icons/terminal.svg"
 import yarnIcon from "./icons/yarn-svgrepo-com.svg"
+import FacebookIcon from "./icons/facebook.svg"
+import LinkedinIcon from "./icons/linkedin.svg"
+import VercelIcon from "./icons/vercel.svg"
+import RenderIcon from "./icons/render.svg"
 
 // Screenshots
 import oboeEditsImg from "./images/758shots_so.png"
@@ -28,7 +35,10 @@ import TelegramUI from './UI/telegram.svg'
 import PhoneUI from './UI/phone.svg'
 import CopyUI from './UI/copy.svg'
 
-// Tags
+export const Profile = HeroProfile
+export const CV = CVDocument
+
+// Icons
 export const JS = jsIcon
 export const HTML = htmlIcon
 export const Astro = astroIcon
@@ -45,6 +55,11 @@ export const git = gitIcon
 export const GitHub = gitHubIcon
 export const bash = bashIcon
 export const yarn = yarnIcon
+export const Facebook = FacebookIcon
+export const linkedin = LinkedinIcon
+export const vercel = VercelIcon
+export const render = RenderIcon
+
 
 // Screenshots
 export const oboeEdits = oboeEditsImg

@@ -1,5 +1,5 @@
 ---
-// src/components/Header.astro
+import { CV } from "./../assets/index.js"
 ---
 
 <header class="flex h-20 items-center w-full justify-center fixed top-0 px-3 z-50">
@@ -16,7 +16,7 @@
         </div>
         <nav class="flex gap-2 items-center">
             <div>
-                <a href="http://" class="flex rounded-full py-1 px-2 bg-purple-500 hover:bg-purple-600">DESCARGAR CV</a>
+                <a href={CV} class="flex rounded-full py-1 px-2 bg-purple-500 hover:bg-purple-600" download="Curriculum_de_Jeriel_beckford.pdf">DESCARGAR CV</a>
             </div>
 
             <aside

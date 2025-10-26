@@ -1,4 +1,4 @@
-import { JS, HTML, Astro, ReactJS, CSS, Tailwind, VScode, node, vite, npm, pnpm, cursorAI, git, GitHub, bash, yarn } from "./../assets/index.js"
+import { JS, HTML, Astro, ReactJS, CSS, Tailwind, VScode, node, vite, npm, pnpm, cursorAI, git, GitHub, bash, yarn, vercel, render } from "./../assets/index.js"
 
 export const skilsData = [
     {
@@ -80,6 +80,16 @@ export const skilsData = [
         name: 'Yarn',
         picture: yarn.src,
         link: 'https://yarnpkg.com',
+    },
+    {
+        name: 'Vercel',
+        picture: vercel.src,
+        link: 'https://vercel.com'
+    },
+    {
+        name: 'Render',
+        picture: render.src,
+        link: 'https://render.com/'
     },
 ]
 export default skilsData

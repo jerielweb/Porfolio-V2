@@ -1,4 +1,4 @@
-import proyectsData from "../data/Data.Proyects"
+import { proyectsData } from "../data/index"
 
 export default function ProjectCard() {
   return (

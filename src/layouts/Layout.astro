@@ -2,7 +2,7 @@
 const { title } = Astro.props
 import "../styles/global.css";
 import "./../output/output.css"
-import { Header } from "./../components/index.js"
+import { Header, Footer } from "./../components/index.js"
 ---
 
 
@@ -16,10 +16,11 @@ import { Header } from "./../components/index.js"
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
 	</head>
-	<body class="bg-gradient-to-b from-violet-900 to-neutral-900 flex items-center justify-center bg-no-repeat">
+	<body class="bg-gradient-to-b from-violet-900 to-neutral-900 flex items-center justify-center bg-no-repeat flex-col">
 		<Header client:load/>
 		<main class="flex flex-col w-full items-center gap-30 justify-center">
 			<slot />
 		</main>
+		<Footer />
 	</body>
 </html>

@@ -1,4 +1,4 @@
-import skilsData from "../data/Data.Skils.js";
+import { skilsData } from "../data/Data.Skils.js";
 
 export function Skils()  {
     return(
