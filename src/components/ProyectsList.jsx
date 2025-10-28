@@ -1,5 +1,5 @@
 
-import { proyectsData } from "./../data/index.js
+import { proyectsData } from "./../data/index.js"
 
 export default ProjectList() {
   return (
