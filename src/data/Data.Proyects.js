@@ -1,6 +1,6 @@
 import { JS, HTML, ReactJS, CSS, oboeEdits, calc, portfolio } from "./../assets/index.js"
 
-const projects = [
+const proyects = [
   {
     title: 'Oboe Edits',
     description: 'Un sitio Loading Page donde se especializa ofrecer servicios de edición de alta calidad.',
@@ -33,4 +33,4 @@ const projects = [
   },
 ];
 
-export default projects
+export default proyects
