@@ -71,7 +71,7 @@ export default function ProjectList() {
           </div>
         </article>
       ))}
-<a href="#" className="text-[20px] size-fit bg-purple-700 py-2 px-5 rounded-[10px] transition active:scale-93 font-semibold cursor-pointer">
+<a href="https://github.com/jerielweb?tab=repositories" className="text-[20px] size-fit bg-purple-700 py-2 px-5 rounded-[10px] transition active:scale-93 font-semibold cursor-pointer">
           Ver todos los Proyectos
         </a>
     </section>
