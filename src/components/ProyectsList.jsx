@@ -1,4 +1,7 @@
-export default function ProjectList({ proyects = [], isHomePage = false }) {
+
+import { proyectsData } from "./../data/index.js
+
+export default function ProjectList() {
   return (
     <section id="proyects" className='flex min-h-[650px] text-purple-100 flex-col gap-2 justify-center w-full items-center'>
       <h2 className="text-center font-extrabold sm:text-5xl text-4xl">Proyectos más Recientes</h2>
