@@ -1,21 +1,13 @@
 ---
 // 1. Importaciones
 import Layout from '../layouts/Layout.astro';
-import { proyectsData } from "../data/index.js";
-import ProyectList from "./../components/ProyectsList.jsx";
-
-import { Hero, ContactForm, About, Skils } from "./../components/index.js"
-const limitedProyects = proyectsData.slice(0, 3);
+import { Hero, ContactForm, About, Skils, Proyects } from "./../components/index.js"
 ---
 
 <Layout title="Jeriel Porfolio | Inicio">
     <Hero />
     <About />
-    <ProyectList
-        proyects={limitedProyects}
-        isHomePage={true}
-        client:visible
-    />
+    <Proyects client:visible />
     <Skils client:visible />
     <ContactForm client:visible />
 </Layout>
