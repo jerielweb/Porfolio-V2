@@ -1,20 +1,19 @@
 import { proyectsData } from "./../data/index.js"
 
 // El componente ahora acepta 'isHomePage' como una prop
-export default function ProjectList({ isHomePage }) { 
-  // Usamos los datos importados
+export default function ProjectList() {
   const projects = proyectsData;
 
   return (
-    <section id="proyects" className='flex min-h-[650px] text-purple-100 flex-col gap-2 justify-center w-full items-center'>
+    <section className='flex min-h-[650px] text-purple-100 flex-col gap-2 justify-center w-full items-center'>
       <h2 className="text-center font-extrabold sm:text-5xl text-4xl">Proyectos más Recientes</h2>
-      {projects.map((data, index) => ( 
-        <article key={data.id || index} className='flex gap-2 rounded-2xl m-8 overflow-hidden lg:pr-0 lg:pl-0 flex-col-reverse xl:flex-row lg:max-w-6xl xl:h-96 border-3 justify-between items-center hover:scale-103 transition duration-200 ease-out'>
+      {proyectsData.map((data, index) => ( 
+        <article key={index} className='flex gap-2 rounded-2xl m-8 overflow-hidden lg:pr-0 lg:pl-0 flex-col-reverse xl:flex-row lg:max-w-6xl xl:h-96 border-3 justify-between items-center hover:scale-103 transition duration-200 ease-out'>
           <div className="xl:max-w-lg w-full xl:w-auto flex flex-col h-full p-5">
             <div className="flex h-full flex-col justify-between gap-5">
                 <h2
                 className="text-4xl font-bold"
-                data-astro-transition-persist={`project-title-${data.id || data.title}`}
+                data-astro-transition-persist={`project-title-${data.title}`}
                 >{data.title}</h2>
               <div>
                 {data.description instanceof Array ? (
@@ -50,7 +49,7 @@ export default function ProjectList({ isHomePage }) {
                     src={data.tags}
                     alt={`Iconos de tecnologías para ${data.title}`}
                     loading="lazy"
-                    data-astro-transition-persist={`stack-image-${data.id || data.title}`}
+                    data-astro-transition-persist={`stack-image-${data.title}`}
                   />
                 )}
                 </div>
@@ -67,16 +66,14 @@ export default function ProjectList({ isHomePage }) {
             alt={data.imgScreen}
             className="max-h-96 h-auto object-contain aspect-video rounded-xl mask-clip-border"
             loading="lazy"
-            data-astro-transition-persist={`project-image-${data.id || data.title}`}
+            data-astro-transition-persist={`project-image-${data.title}`}
             />
           </div>
         </article>
       ))}
-      {isHomePage && ( 
-        <a href="/proyects" className="text-[20px] size-fit bg-purple-700 py-2 px-5 rounded-[10px] transition active:scale-93 font-semibold cursor-pointer">
+<a href="#" className="text-[20px] size-fit bg-purple-700 py-2 px-5 rounded-[10px] transition active:scale-93 font-semibold cursor-pointer">
           Ver todos los Proyectos
         </a>
-      )}
     </section>
   );
 }
