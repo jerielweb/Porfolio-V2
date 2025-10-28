@@ -1,11 +1,14 @@
-
 import { proyectsData } from "./../data/index.js"
 
-export default ProjectList() {
+// El componente ahora acepta 'isHomePage' como una prop
+export default function ProjectList({ isHomePage }) { 
+  // Usamos los datos importados
+  const projects = proyectsData;
+
   return (
     <section id="proyects" className='flex min-h-[650px] text-purple-100 flex-col gap-2 justify-center w-full items-center'>
       <h2 className="text-center font-extrabold sm:text-5xl text-4xl">Proyectos más Recientes</h2>
-      {proyects.map((data, index) => (
+      {projects.map((data, index) => ( 
         <article key={data.id || index} className='flex gap-2 rounded-2xl m-8 overflow-hidden lg:pr-0 lg:pl-0 flex-col-reverse xl:flex-row lg:max-w-6xl xl:h-96 border-3 justify-between items-center hover:scale-103 transition duration-200 ease-out'>
           <div className="xl:max-w-lg w-full xl:w-auto flex flex-col h-full p-5">
             <div className="flex h-full flex-col justify-between gap-5">
@@ -53,8 +56,8 @@ export default ProjectList() {
                 </div>
               </div>
               <div className="flex lg:w-full lg:flex-row gap-5 font-semibold text-center items-center justify-center sm:justify-normal sm:items-normal">
-                <a className="text-[20px] size-fit bg-purple-700 py-2 px-5 rounded-[10px] transition active:scale-93" target="_blank" href={data.liveLink} rel="noopener norefered">Ver Demo</a>
-                <a className="text-[20px] size-fit bg-purple-700 py-2 px-5 rounded-[10px] transition active:scale-93" target="_blank" href={data.githubLink} rel="noopener norefered">Ver Codigo</a>
+                <a className="text-[20px] size-fit bg-purple-700 py-2 px-5 rounded-[10px] transition active:scale-93" target="_blank" href={data.liveLink} rel="noopener noreferrer">Ver Demo</a> 
+                <a className="text-[20px] size-fit bg-purple-700 py-2 px-5 rounded-[10px] transition active:scale-93" target="_blank" href={data.githubLink} rel="noopener noreferrer">Ver Codigo</a>
               </div>
             </div>
           </div>
@@ -69,7 +72,7 @@ export default ProjectList() {
           </div>
         </article>
       ))}
-      {isHomePage && (
+      {isHomePage && ( 
         <a href="/proyects" className="text-[20px] size-fit bg-purple-700 py-2 px-5 rounded-[10px] transition active:scale-93 font-semibold cursor-pointer">
           Ver todos los Proyectos
         </a>
@@ -77,4 +80,3 @@ export default ProjectList() {
     </section>
   );
 }
-export default ProyectList
