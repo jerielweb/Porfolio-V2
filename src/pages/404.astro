@@ -1,0 +1,18 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { ErrorImg } from "../assets/index.js";
+import { Image } from "astro:assets";
+---
+
+<Layout title="404 | Página no encontrada" description="La página que buscas no existe o ha sido movida." url="/404" image="/social-preview.png">
+    <div class="min-h-screen max-w-[1200px] w-full flex flex-col items-center justify-center px-4 text-center gap-5">
+        <div class="flex flex-col items-center mb-4 text-[150px] md:text-[250px] font-bold text-purple-700 size-full justify-center relative">
+            <Image src={ErrorImg} alt="Imagen de error 404" class="w-80 md:w-100 h-auto rounded-full mask-b-from-20%" />
+                <h1 class="absolute -bottom-20 md:-bottom-27 z-1">404</h1>
+        </div>
+        <div class="flex flex-col gap-6 justify-center items-center z-10">
+            <p class="text-xl mx-5">Lo sentimos, la página que buscas no se pudo encontrar.</p>
+            <a href="/" class="text-[17px] size-fit bg-purple-700 py-2 px-5 rounded-[10px] transition active:scale-93">Volver al inicio</a>
+        </div>
+    </div>
+</Layout>
