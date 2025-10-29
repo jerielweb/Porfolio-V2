@@ -34,6 +34,7 @@ import MailUI from './UI/mailsend.svg'
 import TelegramUI from './UI/telegram.svg'
 import PhoneUI from './UI/phone.svg'
 import CopyUI from './UI/copy.svg'
+import linkUI from './UI/link.svg'
 
 export const Profile = HeroProfile
 export const CV = CVDocument
@@ -72,3 +73,4 @@ export const Mail = MailUI
 export const Telegram = TelegramUI
 export const Phone = PhoneUI
 export const Copy = CopyUI
+export const Link = linkUI

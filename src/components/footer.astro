@@ -3,12 +3,12 @@ const currentYear = new Date().getFullYear()
 const nombreSitio = "Portafilo V2"
 ---
 
-<footer class="flex w-full text-purple-50/40 justify-center items-center flex-col h-20 mt-10">
+<footer class="flex w-full text-purple-50/40 justify-center items-center flex-col h-20 mt-10 text-center text-balance">
     <div class="flex w-full text-purple-50/40 justify-center items-center flex-col sm:flex-row gap-2">
-        <a>
-            <p>Mapa de sitio</p>
-        </a>
         <div class="flex flex-row gap-2">
+            <a href="/sitemap-index.xml" class="hover:text-blue-500 active:text-blue-500 size-fit">
+                <p>Mapa de sitio</p>
+            </a>
             <a href="https://www.facebook.com/jeriel.beckford.2025" class="hover:text-blue-500 active:text-blue-500 size-fit">
                 FaceBook
             </a>
@@ -19,7 +19,7 @@ const nombreSitio = "Portafilo V2"
     </div>
     <div>
         <p>
-            &copy; {currentYear} {nombreSitio}. Licenciado bajo la <a href="./../LICENSE">Licencia MIT</a>.
+            &copy; {currentYear} {nombreSitio}. Licenciado bajo la <a href="./../LICENSE" class="hover:text-blue-500 active:text-blue-500 size-fit">Licencia MIT</a>.
         </p>
     </div>
 </footer>
