@@ -6,11 +6,9 @@ export function Skils()  {
             <h2 className="text-center font-extrabold sm:text-5xl text-4xl">Conocimientos</h2>
             <div className="flex max-w-5xl flex-row flex-wrap gap-5 items-center justify-center">
                 {skilsData.map ((sk, index) => (
-                    <div key={index}
-                    className="flex size-fit hover:scale-105 active:scale-98 transition duration-200 ease-out"
-                    >
                         <a
-                        className="flex items-center justify-center flex-col gap-5 rounded-3xl border-2 p-4 h-50 w-[150px]"
+                        key={index}
+                        className="flex items-center justify-center flex-col gap-5 rounded-3xl border-2 p-4 h-50 w-[150px] size-fit hover:scale-105 active:scale-96 transition duration-200 ease-out"
                         rel="noopener norefered"
                         target="_blank"
                         href={sk.link}
@@ -21,13 +19,11 @@ export function Skils()  {
                             alt={sk.name}
                             load="lazy"
                             />
-                            <p className="text-xl font-[500]">{sk.name}</p>
+                            <p className="text-xl">{sk.name}</p>
                         </a>
-                    </div>
                 ))}
             </div>
         </section>
     )
 }
-
 export default Skils

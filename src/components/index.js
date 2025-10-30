@@ -4,7 +4,8 @@ import ContactFormComponent from './contactform.astro';
 import AboutComponent from './About.astro'
 import SkilsComponent from './skils.jsx'
 import HeaderComponents from './Header.astro'
-import FooterComponent from './footer.astro'
+import FooterComponent from './footer.astro'
+
 
 export const Hero = HeroComponent
 export const Proyects = ProyectsComponent
