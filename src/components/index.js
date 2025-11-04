@@ -5,7 +5,7 @@ import AboutComponent from './About.astro'
 import SkilsComponent from './skils.jsx'
 import HeaderComponents from './Header.astro'
 import FooterComponent from './footer.astro'
-
+import CollectionComponent from './collections.jsx'
 
 export const Hero = HeroComponent
 export const Proyects = ProyectsComponent
@@ -14,3 +14,4 @@ export const About = AboutComponent
 export const Skils = SkilsComponent
 export const Header = HeaderComponents
 export const Footer = FooterComponent
+export const CollectionsCard = CollectionComponent

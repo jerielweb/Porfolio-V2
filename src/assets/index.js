@@ -37,6 +37,11 @@ import CopyUI from './UI/copy.svg'
 import linkUI from './UI/link.svg'
 import errorUI from './UI/2025072018010768.png'
 
+//Collections
+import DaFontIMG from "./images/496shots_so.png"
+import GfontsIMG from "./images/850shots_so.png"
+import svglIMG from "./images/SVGL.png"
+
 export const Profile = HeroProfile
 export const CV = CVDocument
 
@@ -76,3 +81,8 @@ export const Phone = PhoneUI
 export const Copy = CopyUI
 export const Link = linkUI
 export const ErrorImg = errorUI
+
+//Collections
+export const DaFont = DaFontIMG
+export const Gfonts = GfontsIMG
+export const SVGL = svglIMG
