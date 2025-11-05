@@ -41,6 +41,10 @@ import errorUI from './UI/2025072018010768.png'
 import DaFontIMG from "./images/496shots_so.png"
 import GfontsIMG from "./images/850shots_so.png"
 import svglIMG from "./images/SVGL.png"
+import svgRepoIMG from "./images/18shots_so.png"
+import ILOVEIMG from "./images/68shots_so.png"
+import FreePickIMG from "./images/467shots_so.png"
+
 
 export const Profile = HeroProfile
 export const CV = CVDocument
@@ -86,3 +90,6 @@ export const ErrorImg = errorUI
 export const DaFont = DaFontIMG
 export const Gfonts = GfontsIMG
 export const SVGL = svglIMG
+export const svgRepo = svgRepoIMG
+export const iloveimg = ILOVEIMG
+export const freepik = FreePickIMG

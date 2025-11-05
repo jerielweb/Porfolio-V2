@@ -1,14 +1,13 @@
-import COLLECTIONS from '../data/Data.Collections.js';
+import { COLLECTIONS } from '../data/index.js';
 import Link from './../assets/UI/link.svg'
-
 
 export default function CollectionsCard() {
     return (
         <>
-            <h1 className="col-span-3 text-4xl mt-25">Mis Colecciones favoritas</h1>
-            <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-[1200px] w-full min-h-[80vh] px-5">
-                {COLLECTIONS.map((collection, index) => (
-                    <article key={index} className="flex flex-col gap-2 justify-center items-center max-w-sm bg-neutral-900 p-3 max-h-80 rounded-lg">
+            <h1 className="col-span-3 text-4xl mt-20 text-center">Mis Colecciones favoritas</h1>
+            <div className="col-span-3 grid sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-[1200px] w-full min-h-[70vh] px-5 place-content-center">
+                {COLLECTIONS.map((collection) => (
+                    <article key={collection.id} className="flex flex-col gap-2 justify-center items-center max-w-sm bg-neutral-900 p-3 max-h-90 rounded-lg">
                     <div>
                     <img src={collection.imgsrc}
                     alt={collection.title}
@@ -21,7 +20,6 @@ export default function CollectionsCard() {
 
                     <div className="flex flex-col w-full ">
                     <h2 className="text-[17px] font-bold">{collection.title}</h2>
-                    <p className="text-[15px] text-center">{collection.description}</p>
                     <span className="text-[12px] text-purple-50/50">{collection.categories}</span>
                     </div>
 

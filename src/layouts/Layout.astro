@@ -9,7 +9,6 @@ const {
 } = Astro.props;
 
 import "../styles/global.css";
-import "./../output/output.css"
 import { Header, Footer } from "./../components/index.js"
 
 const canonical = canonicalBase.replace(/\/$/, "") + url;
@@ -40,31 +39,31 @@ const jsonLd = {
 		<meta name="generator" content={Astro.generator} />
 		<meta name="description" content={description} />
 		<meta name="keywords" content="Jeriel Beckford Price, desarrollador web, frontend, HTML, CSS, JavaScript, portfolio, proyectos" />
-		<meta name="author" content="Jeriel Beckford Price">
-		<meta name="robots" content="index, follow">
-		<meta name="language" content={lang}>
-		<meta name="geo.region" content="CR">
+		<meta name="author" content="Jeriel Beckford Price" />
+		<meta name="robots" content="index, follow" />
+		<meta name="language" content={lang} />
+		<meta name="geo.region" content="CR" />
 		<meta name="geo.country" content="Costa Rica">
 		<link rel="canonical" href={canonical} />
 		<link rel="alternate" hreflang={lang} href={canonical} />
 
-		<meta property="og:title" content={title}>
-		<meta property="og:description" content={description}>
-		<meta property="og:type" content="website">
-		<meta property="og:url" content={canonical}>
-		<meta property="og:image" content={ogImage}>
-		<meta property="og:site_name" content="Jeriel Beckford Price Portfolio">
-		<meta property="og:locale" content="es_ES">
-		<meta property="og:image:alt" content="Foto de perfil de Jeriel Beckford Price, desarrollador web frontend">
+		<meta property="og:title" content={title} />
+		<meta property="og:description" content={description} />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content={canonical} />
+		<meta property="og:image" content={ogImage} />
+		<meta property="og:site_name" content="Jeriel Beckford Price Portfolio" />
+		<meta property="og:locale" content="es_ES" />
+		<meta property="og:image:alt" content="Foto de perfil de Jeriel Beckford Price, desarrollador web frontend" />
 		<meta property="og:image:type" content="image/webp">
 
 		<meta name="twitter:card" content="summary_large_image">
 		<meta name="twitter:title" content={title}>
 		<meta name="twitter:description" content={description}>
 		<meta name="twitter:image" content={ogImage}>
-		<meta name="twitter:image:alt" content="Foto de perfil de Jeriel Beckford Price, desarrollador web frontend">
-		<meta name="twitter:site" content="@jerielweb">
-		<meta name="twitter:creator" content="@jerielweb">
+		<meta name="twitter:image:alt" content="Foto de perfil de Jeriel Beckford Price, desarrollador web frontend" />
+		<meta name="twitter:site" content="@jerielweb" />
+		<meta name="twitter:creator" content="@jerielweb" />
 
 		<title>{title}</title>
 
