@@ -4,7 +4,7 @@ import Link from './../assets/UI/link.svg'
 export default function CollectionsCard() {
     return (
         <>
-            <h1 className="col-span-3 text-4xl mt-20 text-center">Mis Colecciones favoritas</h1>
+            <h1 className="col-span-3 text-4xl mt-23 text-center">Mis Colecciones favoritas</h1>
             <div className="col-span-3 grid sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-[1200px] w-full min-h-[70vh] px-5 place-content-center">
                 {COLLECTIONS.map((collection) => (
                     <article key={collection.id} className="flex flex-col gap-2 justify-center items-center max-w-sm bg-neutral-900 p-3 max-h-90 rounded-lg">
