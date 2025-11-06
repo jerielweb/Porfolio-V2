@@ -18,14 +18,14 @@ const collectionData = [
     {
         id: 3,
         title: "SVGL",
-        categories: "Iconos",
+        categories: "Iconos · Logos",
         link: "https://svgl.app",
         imgsrc: SVGL.src,
     },
     {
         id: 4,
         title: "SVG Repo",
-        categories: "Iconos · Favicons",
+        categories: "Iconos · Favicons · Logos",
         link: "https://www.svgrepo.com/",
         imgsrc: svgRepo.src,
     },

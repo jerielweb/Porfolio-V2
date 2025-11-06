@@ -4,10 +4,10 @@ import Link from './../assets/UI/link.svg'
 export default function CollectionsCard() {
     return (
         <>
-            <h1 className="col-span-3 text-4xl mt-23 text-center">Mis Colecciones favoritas</h1>
+            <h1 className="col-span-3 text-4xl mt-23 text-center font-bold">Mis Colecciones favoritas</h1>
             <div className="col-span-3 grid sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-[1200px] w-full min-h-[70vh] px-5 place-content-center">
                 {COLLECTIONS.map((collection) => (
-                    <article key={collection.id} className="flex flex-col gap-2 justify-center items-center max-w-sm bg-neutral-900 p-3 max-h-90 rounded-lg">
+                    <article key={collection.id} className="flex flex-col gap-2 justify-center items-center max-w-sm border-2 border-purple-50 p-3 max-h-90 rounded-lg">
                     <div>
                     <img src={collection.imgsrc}
                     alt={collection.title}
@@ -20,7 +20,7 @@ export default function CollectionsCard() {
 
                     <div className="flex flex-col w-full ">
                     <h2 className="text-[17px] font-bold">{collection.title}</h2>
-                    <span className="text-[12px] text-purple-50/50">{collection.categories}</span>
+                    <span className="text-[12px] text-purple-50/50 font-medium">{collection.categories}</span>
                     </div>
 
                     <div className="flex flex-col gap-3 justify-center items-center w-full">

@@ -8,7 +8,7 @@ import FooterComponent from './footer.astro'
 import CollectionComponent from './collections.jsx'
 
 export const Hero = HeroComponent
-export const Proyects = ProyectsComponent
+export const ProyectsLIST = ProyectsComponent
 export const ContactForm = ContactFormComponent
 export const About = AboutComponent
 export const Skils = SkilsComponent

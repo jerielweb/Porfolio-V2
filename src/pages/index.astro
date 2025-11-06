@@ -1,13 +1,15 @@
 ---
 // 1. Importaciones
 import Layout from '../layouts/Layout.astro';
-import { Hero, ContactForm, About, Skils, Proyects } from "./../components/index.js"
+import { Hero, ContactForm, About, Skils, ProyectsLIST } from "./../components/index.js"
+import { proyectsData } from "./../data/index.js"
+const ProyectsRecents = proyectsData.slice(0, 3);
 ---
 
 <Layout title="Jeriel Porfolio | Inicio" description="Portafolio de Jeriel Beckford Price — Desarrollador web Front-end" url="/" image="/social-preview.png">
     <Hero />
     <About />
-    <Proyects client:visible />
+    <ProyectsLIST proyectsData={ProyectsRecents} client:visible title="Proyectos Recientes" showAllButton={true}/>
     <Skils client:visible />
     <ContactForm client:visible />
 </Layout>
