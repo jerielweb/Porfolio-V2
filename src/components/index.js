@@ -7,11 +7,11 @@ import HeaderComponents from './Header.astro'
 import FooterComponent from './footer.astro'
 import CollectionComponent from './collections.jsx'
 
-export const Hero = HeroComponent
-export const ProyectsLIST = ProyectsComponent
-export const ContactForm = ContactFormComponent
-export const About = AboutComponent
-export const Skils = SkilsComponent
-export const Header = HeaderComponents
-export const Footer = FooterComponent
+export const HERO = HeroComponent
+export const PROYECTS_LIST = ProyectsComponent
+export const CONTACT_FORM = ContactFormComponent
+export const ABOUT = AboutComponent
+export const SKILS = SkilsComponent
+export const HEADER = HeaderComponents
+export const FOOTER = FooterComponent
 export const CollectionsCard = CollectionComponent

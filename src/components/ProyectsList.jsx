@@ -1,5 +1,3 @@
-import { Link } from "./../assets/index.js"
-
 export default function ProjectList({proyectsData = [], title, showAllButton = true}) {
   return (
     <section className='flex min-h-[650px] text-purple-100 flex-col gap-2 justify-center w-full items-center'>
@@ -21,7 +19,7 @@ export default function ProjectList({proyectsData = [], title, showAllButton = t
                             <p
                             className="max-w-[400px] text-[1.3rem] font-semibold"
                             >{data.description}</p>
-                        )}
+                )}
               </div>
               <div>
                 <h2

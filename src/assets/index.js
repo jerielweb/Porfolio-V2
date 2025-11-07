@@ -18,15 +18,14 @@ import gitIcon from "./icons/git.svg"
 import gitHubIcon from "./icons/github.svg"
 import bashIcon from "./icons/terminal.svg"
 import yarnIcon from "./icons/yarn-svgrepo-com.svg"
-import FacebookIcon from "./icons/facebook.svg"
 import LinkedinIcon from "./icons/linkedin.svg"
 import VercelIcon from "./icons/vercel.svg"
 import RenderIcon from "./icons/render.svg"
 
-// Screenshots
-import oboeEditsImg from "./images/758shots_so.png"
-import calcImg from "./images/678shots_so.png"
-import portfolioImg from "./images/743shots_so.png"
+// Proyects Screenshots
+import oboeEditsImg from "./images/proyects_shots/758shots_so.png"
+import calcImg from "./images/proyects_shots/678shots_so.png"
+import portfolioImg from "./images/proyects_shots/743shots_so.png"
 
 //UI
 import WhatsAppUI from './UI/whatsapp.svg'
@@ -38,12 +37,12 @@ import linkUI from './UI/link.svg'
 import errorUI from './UI/2025072018010768.png'
 
 //Collections
-import DaFontIMG from "./images/496shots_so.png"
-import GfontsIMG from "./images/850shots_so.png"
-import svglIMG from "./images/SVGL.png"
-import svgRepoIMG from "./images/18shots_so.png"
-import ILOVEIMG from "./images/68shots_so.png"
-import FreePickIMG from "./images/467shots_so.png"
+import DaFontIMG from "./images/collections_shots/496shots_so.png"
+import GfontsIMG from "./images/collections_shots/850shots_so.png"
+import svglIMG from "./images/collections_shots/SVGL.png"
+import svgRepoIMG from "./images/collections_shots/18shots_so.png"
+import ILOVEIMG from "./images/collections_shots/68shots_so.png"
+import FreePickIMG from "./images/collections_shots/467shots_so.png"
 
 
 export const Profile = HeroProfile
@@ -66,13 +65,12 @@ export const git = gitIcon
 export const GitHub = gitHubIcon
 export const bash = bashIcon
 export const yarn = yarnIcon
-export const Facebook = FacebookIcon
 export const linkedin = LinkedinIcon
 export const vercel = VercelIcon
 export const render = RenderIcon
 
 
-// Screenshots
+// Proyects Screenshots
 export const oboeEdits = oboeEditsImg
 export const calc = calcImg
 export const portfolio = portfolioImg

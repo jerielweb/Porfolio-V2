@@ -6,7 +6,21 @@
     font-style: normal;
     line-height: 1;
 }
+@font-face {
+    font-family: 'Google Sans Code';
+    src: url('../assets/fonts/GoogleSansCode-Variable.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1;
+}
+@font-face {
+    font-family: 'Cascadia Code';
+    src: url('../assets/fonts/CascadiaCodePL.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1;
+}
 @theme {
-    --font-sans: 'Cascadia Code', system-ui, sans-serif;
-    --font-concert: 'Concert One', 'Google Sans Code', system-ui, sans-serif;
+    --font-sans: 'Cascadia Code', 'Google Sans Code', system-ui, sans-serif;
+    --font-concert: 'Concert One', system-ui, sans-serif;
 }
