@@ -1,4 +1,6 @@
-
+---
+import { GitHub, linkedin } from './../assets/index.js';
+---
 <secction class="flex size-full min-h-96 items-center justify-center">
     <div class="flex flex-col size-full
 justify-center rounded-2xl overflow-hidden border-3 items-center mx-5 border-purple-400 hover:border-purple-100 active:border-purple-100 transition duration-200 ease-out text-purple-50 max-w-2xl p-5 text-start gap-5">
@@ -8,6 +10,17 @@ justify-center rounded-2xl overflow-hidden border-3 items-center mx-5 border-pur
         <div class="flex flex-col gap-2 font-semibold text-xl">
             <p>Soy un estudiante de Desarrollo Web y Desarrollador Frontend independiente en formación con pasión por crear experiencias digitales intuitivas y atractivas.</p>
             <p>Mi viaje en el desarrollo web se centra en el Frontend, donde disfruto transformando diseños conceptuales en interfaces de usuario funcionales y responsivas. Como estudiante, estoy constantemente en la búsqueda de nuevas tecnologías y mejores prácticas para elevar la calidad de mi código.</p>
+        </div>
+        <div class="flex gap-5 flex-row">
+            <a href="https://github.com/jerielweb" target="_blank" rel="noopener norefered" class="flex items-center justify-center gap-2 bg-purple-600 text-purple-100 font-bold rounded-3xl p-3 hover:shadow-sm hover:shadow-purple-100 active:shadow-purple-100 transition duration-200 ease-out">
+                <img src={GitHub.src} alt="GitHub" class="size-6 pointer-events-none" />
+                <span>GitHub</span>
+            </a>
+            <a>
+                <a href="https://www.linkedin.com/in/jeriel-beckford-price-74ba24330" target="_blank" rel="noopener norefered" class="flex items-center justify-center gap-2 bg-purple-600 text-purple-100 font-bold rounded-3xl p-3 hover:shadow-sm hover:shadow-purple-100 active:shadow-purple-100 transition duration-200 ease-out">
+                <img src={linkedin.src} alt="linkedin" class="size-6 pointer-events-none" />
+                <span>Linkedin</span>
+            </a>
         </div>
     </div>
 </section>
