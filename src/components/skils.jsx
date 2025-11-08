@@ -8,7 +8,7 @@ export default function Skils()  {
                 {skilsData.map ((sk, index) => (
                         <a
                         key={index}
-                        className="flex items-center justify-center flex-col gap-5 rounded-3xl border-2 p-4 h-50 w-[150px] size-fit border-purple-100 hover:shadow-lg hover:shadow-purple-100 transition duration-200 ease-out"
+                        className="flex items-center justify-center flex-col gap-5 rounded-3xl border-2 p-4 h-50 w-[150px] size-fit border-purple-100 hover:shadow-lg hover:shadow-purple-100 active:shadow-purple-100 transition duration-200 ease-out"
                         rel="noopener norefered"
                         target="_blank"
                         href={sk.link}
