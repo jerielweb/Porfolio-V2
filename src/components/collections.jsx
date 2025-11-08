@@ -7,7 +7,7 @@ export default function CollectionsCard() {
             <h1 className="col-span-3 text-4xl mt-23 text-center font-bold">Mis Colecciones favoritas</h1>
             <div className="col-span-3 grid sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-[1200px] w-full min-h-[70vh] px-5 place-content-center">
                 {COLLECTIONS.map((collection) => (
-                    <article key={collection.id} className="flex flex-col gap-2 justify-center items-center max-w-sm border-2 border-purple-50 p-3 max-h-90 rounded-lg">
+                    <article key={collection.id} className="flex flex-col gap-2 justify-center items-center max-w-sm border-2 border-purple-400 hover:border-purple-100 active:border-purple-100 transition duration-200 ease-out p-3 max-h-90 rounded-lg">
                     <div>
                     <img src={collection.imgsrc}
                     alt={collection.title}

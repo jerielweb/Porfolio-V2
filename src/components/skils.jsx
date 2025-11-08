@@ -1,6 +1,6 @@
 import { skilsData } from "../data/Data.Skils.js";
 
-export function Skils()  {
+export default function Skils()  {
     return(
         <section className="flex min-h-[650px] text-purple-100 flex-col gap-10 justify-center w-full items-center px-2">
             <h2 className="text-center font-extrabold sm:text-5xl text-4xl">Conocimientos</h2>
@@ -8,7 +8,7 @@ export function Skils()  {
                 {skilsData.map ((sk, index) => (
                         <a
                         key={index}
-                        className="flex items-center justify-center flex-col gap-5 rounded-3xl border-2 p-4 h-50 w-[150px] size-fit hover:scale-105 active:scale-96 transition duration-200 ease-out"
+                        className="flex items-center justify-center flex-col gap-5 rounded-3xl border-2 p-4 h-50 w-[150px] size-fit border-purple-100 hover:shadow-lg hover:shadow-purple-100 transition duration-200 ease-out"
                         rel="noopener norefered"
                         target="_blank"
                         href={sk.link}
@@ -26,4 +26,3 @@ export function Skils()  {
         </section>
     )
 }
-export default Skils

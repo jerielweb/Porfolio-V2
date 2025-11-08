@@ -1,4 +1,4 @@
-import { JS, HTML, ReactJS, CSS, oboeEdits, calc, portfolio } from "./../assets/index.js"
+import { JS, HTML, ReactJS, CSS, oboeEdits, calc, portfolio, vite } from "./../assets/index.js"
 
 const PROYECT_DATA = [
   {
@@ -6,8 +6,8 @@ const PROYECT_DATA = [
     description: 'Un sitio Loading Page donde se especializa ofrecer servicios de edición de alta calidad.',
     imgSrc: oboeEdits.src,
     imgScreen: 'Captura de pantalla del sitio Oboe Edits',
-    frameworks: ['ReactJS', 'JavaScript', 'CSS'],
-    tags: [ReactJS.src, JS.src, CSS.src],
+    frameworks: ['ReactJS', 'JavaScript', 'CSS', 'Vite'],
+    tags: [ReactJS.src, JS.src, CSS.src, vite.src],
     githubLink: 'https://github.com/jerielweb/Oboe-Edits',
     liveLink: 'https://oboe-edits.vercel.app/'
   },

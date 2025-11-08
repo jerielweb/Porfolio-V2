@@ -44,6 +44,10 @@ import svgRepoIMG from "./images/collections_shots/18shots_so.png"
 import ILOVEIMG from "./images/collections_shots/68shots_so.png"
 import FreePickIMG from "./images/collections_shots/467shots_so.png"
 
+// Education
+import JavaScriptCourseImg from "./images/educations/Título_De_curso_Javascript.png"
+import HTMLyCSSCourseImg from "./images/educations/Título_De_curso_HTML_Y_CSS.png"
+
 
 export const Profile = HeroProfile
 export const CV = CVDocument
@@ -91,3 +95,7 @@ export const SVGL = svglIMG
 export const svgRepo = svgRepoIMG
 export const iloveimg = ILOVEIMG
 export const freepik = FreePickIMG
+
+// Education
+export const JavaScriptCourse = JavaScriptCourseImg
+export const HTMLyCSSCourse = HTMLyCSSCourseImg

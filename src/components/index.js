@@ -6,6 +6,7 @@ import SkilsComponent from './skils.jsx'
 import HeaderComponents from './Header.astro'
 import FooterComponent from './footer.astro'
 import CollectionComponent from './collections.jsx'
+import EducationComponent from './Education.jsx'
 
 export const HERO = HeroComponent
 export const PROYECTS_LIST = ProyectsComponent
@@ -15,3 +16,4 @@ export const SKILS = SkilsComponent
 export const HEADER = HeaderComponents
 export const FOOTER = FooterComponent
 export const CollectionsCard = CollectionComponent
+export const EDUCATION_CARD = EducationComponent

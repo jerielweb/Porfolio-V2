@@ -3,7 +3,7 @@ export default function ProjectList({proyectsData = [], title, showAllButton = t
     <section className='flex min-h-[650px] text-purple-100 flex-col gap-2 justify-center w-full items-center'>
       <h2 className={showAllButton ? "text-center font-extrabold sm:text-5xl text-4xl" : "text-center font-extrabold sm:text-5xl text-4xl mt-20"}>{title}</h2>
       {proyectsData.map((data, index) => (
-        <article key={index} className='flex gap-2 rounded-2xl m-8 overflow-hidden lg:pr-0 lg:pl-0 flex-col-reverse xl:flex-row lg:max-w-6xl xl:h-96 border-3 justify-between items-center hover:scale-103 transition duration-200 ease-out'>
+        <article key={index} className='flex gap-2 rounded-2xl m-8 overflow-hidden lg:pr-0 lg:pl-0 flex-col-reverse xl:flex-row lg:max-w-6xl xl:h-96 border-3 border-purple-400 justify-between items-center hover:border-purple-100 active:border-purple-100 transition duration-200 ease-out'>
           <div className="xl:max-w-lg w-full xl:w-auto flex flex-col h-full px-5 py-3">
             <div className="flex h-full flex-col justify-evenly gap-2">
                 <h2
@@ -13,7 +13,7 @@ export default function ProjectList({proyectsData = [], title, showAllButton = t
               <div>
                 {data.description instanceof Array ? (
                             data.description.map((desc, i) => (
-                                <p key={i} >{desc}</p>
+                                <p key={i}>{desc}</p>
                             ))
                         ) : (
                             <p
@@ -30,7 +30,7 @@ export default function ProjectList({proyectsData = [], title, showAllButton = t
                   data.tags.map((imgSrc, p) => (
                     <img
                       key={p}
-                      className="size-12 aspect-square pointer-events-none rounded"
+                      className="size-11 aspect-square pointer-events-none rounded"
                       alt={data.frameworks[p]}
                       itemType="image/svg+xml"
                       src={imgSrc}

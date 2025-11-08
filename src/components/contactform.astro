@@ -44,10 +44,10 @@ import { WhatsApp, Mail, Telegram, Phone, Copy } from "./../assets/index.js"
                 <Image src={Mail} alt="Enviar Correo" class="size-9">
               </a>
 
-              <a onclick="navigator.clipboard.writeText('jerielweb@outlook.es')" class="flex gap-2 transition active:scale-93 flex-row-reverse text-[17px] px-4 py-2 items-center justify-center bg-purple-700 w-full rounded-[10px] cursor-pointer" rel="noopener norefered" target="_blank">
+              <button onclick="navigator.clipboard.writeText('jerielweb@outlook.es')" class="flex gap-2 transition active:scale-93 flex-row-reverse text-[17px] px-4 py-2 items-center justify-center bg-purple-700 w-full rounded-[10px] cursor-pointer" rel="noopener norefered" target="_blank">
                 Copiar Correo
                   <Image src={Copy} alt="" class="size-9">
-              </a>
+              </button>
           </div>
       </div>
 
@@ -63,10 +63,10 @@ import { WhatsApp, Mail, Telegram, Phone, Copy } from "./../assets/index.js"
                 <Image  src={Phone} alt="" class="size-9">
             </a>
 
-            <a onclick="navigator.clipboard.writeText('+506 8923 7369')"  class="flex gap-2 transition active:scale-93 flex-row-reverse text-[17px] px-4 py-2 items-center justify-center bg-purple-700 w-full rounded-[10px] cursor-pointer" rel="noopener norefered" target="_blank">
+            <button onclick="navigator.clipboard.writeText('+506 8923 7369')"  class="flex gap-2 transition active:scale-93 flex-row-reverse text-[17px] px-4 py-2 items-center justify-center bg-purple-700 w-full rounded-[10px] cursor-pointer" rel="noopener norefered" target="_blank">
               Copiar Numero
                 <Image src={Copy} alt="" class="size-9">
-            </a>
+            </button>
 
             <a href="https://wa.me/50689237369" class="flex gap-2 transition active:scale-93 flex-row-reverse text-[17px] px-4 py-2 items-center justify-center bg-purple-700 w-full rounded-[10px]" rel="noopener norefered" target="_blank">
               Enviar A WhatsApp

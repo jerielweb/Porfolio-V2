@@ -1,7 +1,7 @@
 ---
 // 1. Importaciones
 import Layout from '../layouts/Layout.astro';
-import { HERO, CONTACT_FORM, ABOUT, SKILS, PROYECTS_LIST } from "./../components/index.js"
+import { HERO, CONTACT_FORM, ABOUT, SKILS, PROYECTS_LIST, EDUCATION_CARD } from "./../components/index.js"
 import { proyectsData } from "./../data/index.js"
 const ProyectsRecents = proyectsData.slice(0, 3);
 ---
@@ -11,5 +11,6 @@ const ProyectsRecents = proyectsData.slice(0, 3);
     <ABOUT />
     <PROYECTS_LIST proyectsData={ProyectsRecents} client:visible title="Proyectos Recientes" showAllButton={true}/>
     <SKILS client:visible />
+    <EDUCATION_CARD client:visible />
     <CONTACT_FORM client:visible />
 </Layout>
