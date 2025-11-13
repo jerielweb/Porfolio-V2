@@ -3,7 +3,7 @@ import { JS, HTML, React, CSS, oboeEdits, calc, portfolio, vite, LosSimpson, TS 
 const PROYECT_DATA = [
   {
     title: 'Los Simpson',
-    description: 'En este Proyecto me enfoque en como funcionan las apis y quie aplicar mis conocimientos en este pequeño proyecto que hice :)',
+    description: 'En este Proyecto me enfoque en como funcionan las apis y quise aplicar mis conocimientos en este pequeño proyecto que hice :)',
     imgSrc: LosSimpson.src,
     imgScreen: 'Captura de pantalla De los Simpson',
     frameworks: ['ReactTS', 'TypeScript', 'CSS', 'Vite'],
