@@ -3,7 +3,7 @@ const {
     title = "Jeriel Beckford Price - Desarrollador Web Frontend",
     description = "Portfolio de Jeriel Beckford Price — desarrollador web frontend. Proyectos, habilidades y contacto.",
     url = "/",
-    image = "/assets/img/profile.webp",
+    image = "./../public/Open_Graph.png",
     lang = "es",
     canonicalBase = "https://porfolio-v2-eight-jet.vercel.app"
 } = Astro.props;
@@ -62,8 +62,6 @@ const jsonLd = {
         <meta name="twitter:description" content={description} />
         <meta name="twitter:image" content={ogImage} />
         <meta name="twitter:image:alt" content="Foto de perfil de Jeriel Beckford Price, desarrollador web frontend" />
-        <meta name="twitter:site" content="@jerielweb" />
-        <meta name="twitter:creator" content="@jerielweb" />
 
         <title>{title}</title>
 

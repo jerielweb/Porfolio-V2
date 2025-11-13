@@ -9,7 +9,11 @@ const ProyectsRecents = proyectsData.slice(0, 3);
 <Layout title="Jeriel Porfolio | Inicio" description="Portafolio de Jeriel Beckford Price — Desarrollador web Front-end" url="/" image="/social-preview.png">
     <HERO />
     <ABOUT />
-    <PROYECTS_LIST proyectsData={ProyectsRecents} client:visible title="Proyectos Recientes" showAllButton={true}/>
+    <PROYECTS_LIST
+    proyectsData={ProyectsRecents}
+    client:visible
+    title="Proyectos Recientes"
+    showAllButton={true}/>
     <SKILS client:visible />
     <EDUCATION_CARD client:visible />
     <CONTACT_FORM client:visible />
