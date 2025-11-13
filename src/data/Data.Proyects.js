@@ -1,13 +1,23 @@
-import { JS, HTML, ReactJS, CSS, oboeEdits, calc, portfolio, vite } from "./../assets/index.js"
+import { JS, HTML, React, CSS, oboeEdits, calc, portfolio, vite, LosSimpson, TS } from "./../assets/index.js"
 
 const PROYECT_DATA = [
+  {
+    title: 'Los Simpson',
+    description: 'En este Proyecto me enfoque en como funcionan las apis y quie aplicar mis conocimientos en este pequeño proyecto que hice :)',
+    imgSrc: LosSimpson.src,
+    imgScreen: 'Captura de pantalla De los Simpson',
+    frameworks: ['ReactTS', 'TypeScript', 'CSS', 'Vite'],
+    tags: [React.src, TS.src, CSS.src, vite.src],
+    githubLink: 'https://github.com/jerielweb/los-sipmson',
+    liveLink: 'https://los-sipmson.vercel.app/'
+  },
   {
     title: 'Oboe Edits',
     description: 'Un sitio Loading Page donde se especializa ofrecer servicios de edición de alta calidad.',
     imgSrc: oboeEdits.src,
     imgScreen: 'Captura de pantalla del sitio Oboe Edits',
     frameworks: ['ReactJS', 'JavaScript', 'CSS', 'Vite'],
-    tags: [ReactJS.src, JS.src, CSS.src, vite.src],
+    tags: [React.src, JS.src, CSS.src, vite.src],
     githubLink: 'https://github.com/jerielweb/Oboe-Edits',
     liveLink: 'https://oboe-edits.vercel.app/'
   },

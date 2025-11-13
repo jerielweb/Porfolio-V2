@@ -2,5 +2,10 @@
     "editor.formatOnSave": true,
     "files.associations": {
     "*.css": "tailwindcss"
+    },
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#092D5D",
+        "titleBar.activeBackground": "#0D3F82",
+        "titleBar.activeForeground": "#F7FAFE"
     }
 }

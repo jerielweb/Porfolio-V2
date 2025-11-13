@@ -21,11 +21,13 @@ import yarnIcon from "./icons/yarn-svgrepo-com.svg"
 import LinkedinIcon from "./icons/linkedin.svg"
 import VercelIcon from "./icons/vercel.svg"
 import RenderIcon from "./icons/render.svg"
+import TypeScripIcon from "./icons/typescript.svg"
 
 // Proyects Screenshots
 import oboeEditsImg from "./images/proyects_shots/758shots_so.png"
 import calcImg from "./images/proyects_shots/678shots_so.png"
 import portfolioImg from "./images/proyects_shots/743shots_so.png"
+import simpsonImg from "./images/proyects_shots/102shots_so.png"
 
 //UI
 import WhatsAppUI from './UI/whatsapp.svg'
@@ -56,7 +58,7 @@ export const CV = CVDocument
 export const JS = jsIcon
 export const HTML = htmlIcon
 export const Astro = astroIcon
-export const ReactJS = reactJSIcon
+export const React = reactJSIcon
 export const CSS = cssIcon
 export const Tailwind = tailwindIcon
 export const VScode = vscodeIcon
@@ -72,12 +74,16 @@ export const yarn = yarnIcon
 export const linkedin = LinkedinIcon
 export const vercel = VercelIcon
 export const render = RenderIcon
+export const TS = TypeScripIcon
+
 
 
 // Proyects Screenshots
 export const oboeEdits = oboeEditsImg
 export const calc = calcImg
 export const portfolio = portfolioImg
+export const LosSimpson = simpsonImg
+
 
 //UI
 export const WhatsApp = WhatsAppUI

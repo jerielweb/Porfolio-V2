@@ -1,4 +1,4 @@
-import { JS, HTML, Astro, ReactJS, CSS, Tailwind, VScode, node, vite, npm, pnpm, cursorAI, git, GitHub, bash, yarn, vercel, render } from "./../assets/index.js"
+import { JS, HTML, Astro, React, CSS, Tailwind, VScode, node, vite, npm, pnpm, cursorAI, git, GitHub, bash, yarn, vercel, render, TS } from "./../assets/index.js"
 
 export const skilsData = [
     {
@@ -7,8 +7,8 @@ export const skilsData = [
         link: 'https://astro.build'
     },
     {
-        name: 'ReactJS',
-        picture: ReactJS.src,
+        name: 'React',
+        picture: React.src,
         link: 'https://react.dev'
     },
     {
@@ -20,6 +20,11 @@ export const skilsData = [
         name: 'JavaScript',
         picture: JS.src,
         link: 'https://es.wikipedia.org/wiki/JavaScript'
+    },
+    {
+        name: 'TypeScript',
+        picture: TS.src,
+        link: 'https://www.typescriptlang.org'
     },
     {
         name: 'HTML',
