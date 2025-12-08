@@ -6,11 +6,15 @@ import { proyectsData } from "./../data/index.js"
 const ProyectsRecents = proyectsData.slice(0, 3);
 ---
 
-<Layout title="Jeriel Porfolio | Inicio" description="Portafolio de Jeriel Beckford Price — Desarrollador web Front-end" url="/" image="/social-preview.png">
+<Layout title="Jeriel Porfolio | Inicio" description="Portafolio de Jeriel Beckford Price — Desarrollador web Front-end" url="/">
     <HERO />
     <ABOUT />
-    <PROYECTS_LIST proyectsData={ProyectsRecents} client:visible title="Proyectos Recientes" showAllButton={true}/>
-    <SKILS client:visible />
-    <EDUCATION_CARD client:visible />
+    <PROYECTS_LIST
+    proyectsData={ProyectsRecents}
+    client="react"
+    title="Proyectos Recientes"
+    showAllButton={true} />
+    <SKILS client="react" />
+    <EDUCATION_CARD client="react" />
     <CONTACT_FORM client:visible />
 </Layout>
