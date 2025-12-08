@@ -4,7 +4,7 @@ export default function ProjectList({proyectsData = [], title, showAllButton = t
       <h2 className={showAllButton ? "text-center font-extrabold sm:text-5xl text-4xl" : "text-center font-extrabold sm:text-5xl text-4xl mt-20"}>{title}</h2>
       {proyectsData.map((data, index) => (
         <article key={index} className='flex gap-2 rounded-2xl m-8 overflow-hidden lg:pr-0 lg:pl-0 flex-col-reverse xl:flex-row lg:max-w-6xl xl:h-96 border-3 border-purple-400 justify-between items-center hover:border-purple-100 active:border-purple-100 transition duration-200 ease-out'>
-          <div className="xl:max-w-lg w-full xl:w-auto flex flex-col h-full px-5 py-3">
+          <div className="xl:max-w-lg w-full xl:w-auto flex flex-1 flex-col h-full px-5 py-3">
             <div className="flex h-full flex-col justify-evenly gap-2">
                 <h2
                 className="text-4xl font-bold"

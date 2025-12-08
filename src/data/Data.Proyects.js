@@ -1,6 +1,16 @@
-import { JS, HTML, React, CSS, oboeEdits, calc, portfolio, vite, LosSimpson, TS } from "./../assets/index.js"
+import { JS, HTML, React, CSS, oboeEdits, calc, portfolio, vite, LosSimpson, TS, Tailwind, DragonBall, Next } from "./../assets/index.js"
 
 const PROYECT_DATA = [
+  {
+    title: "Dragon Ball Wiki",
+    description: 'Un Proyecto bastante grande para Ampliar conociemientos sobre Los frameworks (Aún En desarroyo)',
+    imgSrc: DragonBall.src,
+    imgScreen: 'Captura de pantalla De la Wikipedia de Dragon Ball',
+    frameworks: ['Next', 'TypeScript','React', 'Tailwind'],
+    tags: [Next.src, Tailwind.src, TS.src, React.src],
+    githubLink: 'https://github.com/jerielweb/dragon-ball-wiki',
+    liveLink: 'https://dragon-ball-wiki.vercel.app/'
+  },
   {
     title: 'Los Simpson',
     description: 'En este Proyecto me enfoque en como funcionan las apis y quise aplicar mis conocimientos en este pequeño proyecto que hice :)',

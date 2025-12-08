@@ -22,12 +22,14 @@ import LinkedinIcon from "./icons/linkedin.svg"
 import VercelIcon from "./icons/vercel.svg"
 import RenderIcon from "./icons/render.svg"
 import TypeScripIcon from "./icons/typescript.svg"
+import NextICON from "./icons/next.svg"
 
 // Proyects Screenshots
 import oboeEditsImg from "./images/proyects_shots/758shots_so.png"
 import calcImg from "./images/proyects_shots/678shots_so.png"
 import portfolioImg from "./images/proyects_shots/743shots_so.png"
 import simpsonImg from "./images/proyects_shots/102shots_so.png"
+import dragonballImg from "./images/proyects_shots/243shots_so.png"
 
 //UI
 import WhatsAppUI from './UI/whatsapp.svg'
@@ -75,6 +77,7 @@ export const linkedin = LinkedinIcon
 export const vercel = VercelIcon
 export const render = RenderIcon
 export const TS = TypeScripIcon
+export const Next = NextICON
 
 
 
@@ -83,6 +86,7 @@ export const oboeEdits = oboeEditsImg
 export const calc = calcImg
 export const portfolio = portfolioImg
 export const LosSimpson = simpsonImg
+export const DragonBall = dragonballImg
 
 
 //UI

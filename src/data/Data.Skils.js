@@ -1,4 +1,4 @@
-import { JS, HTML, Astro, React, CSS, Tailwind, VScode, node, vite, npm, pnpm, cursorAI, git, GitHub, bash, yarn, vercel, render, TS } from "./../assets/index.js"
+import { JS, HTML, Astro, React, CSS, Tailwind, VScode, node, vite, npm, pnpm, cursorAI, git, GitHub, bash, yarn, vercel, render, TS, Next } from "./../assets/index.js"
 
 export const skilsData = [
     {
@@ -96,5 +96,10 @@ export const skilsData = [
         picture: render.src,
         link: 'https://render.com/'
     },
+    {
+        name: 'NextJS',
+        picture: Next.src,
+        link: 'https://nextjs.org/'
+    }
 ]
 export default skilsData
