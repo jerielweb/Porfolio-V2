@@ -9,7 +9,8 @@ const PROYECT_DATA = [
     frameworks: ['Next', 'TypeScript','React', 'Tailwind'],
     tags: [Next.src, Tailwind.src, TS.src, React.src],
     githubLink: 'https://github.com/jerielweb/dragon-ball-wiki',
-    liveLink: 'https://dragon-ball-wiki.vercel.app/'
+    liveLink: 'https://dragon-ball-wiki.vercel.app/',
+    status: 2
   },
   {
     title: 'Los Simpson',
@@ -19,7 +20,8 @@ const PROYECT_DATA = [
     frameworks: ['ReactTS', 'TypeScript', 'CSS', 'Vite'],
     tags: [React.src, TS.src, CSS.src, vite.src],
     githubLink: 'https://github.com/jerielweb/los-sipmson',
-    liveLink: 'https://los-sipmson.vercel.app/'
+    liveLink: 'https://los-sipmson.vercel.app/',
+    status: 3
   },
   {
     title: 'Oboe Edits',
@@ -29,7 +31,8 @@ const PROYECT_DATA = [
     frameworks: ['ReactJS', 'JavaScript', 'CSS', 'Vite'],
     tags: [React.src, JS.src, CSS.src, vite.src],
     githubLink: 'https://github.com/jerielweb/Oboe-Edits',
-    liveLink: 'https://oboe-edits.vercel.app/'
+    liveLink: 'https://oboe-edits.vercel.app/',
+    status: 2
   },
   {
     title: 'Calculadora',
@@ -39,7 +42,8 @@ const PROYECT_DATA = [
     frameworks: ['HTML', 'CSS', 'JavaScript'],
     tags: [HTML.src, CSS.src, JS.src],
     githubLink: 'https://github.com/jerielweb/calculadora',
-    liveLink: 'https://jerielweb.github.io/calculadora/'
+    liveLink: 'https://jerielweb.github.io/calculadora/',
+    status: 3
   },
   {
     title: 'Porfolio V1',
@@ -49,7 +53,8 @@ const PROYECT_DATA = [
     frameworks: ['HTML', 'CSS', 'JavaScript'],
     tags: [HTML.src, CSS.src, JS.src],
     githubLink: 'https://github.com/jerielweb/portfolio',
-    liveLink: 'https://jerielweb.github.io/portfolio'
+    liveLink: 'https://jerielweb.github.io/portfolio',
+    status: 3
   },
 ];
 

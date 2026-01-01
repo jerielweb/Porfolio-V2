@@ -1,6 +1,6 @@
 export default function ProjectList({proyectsData = [], title, showAllButton = true}) {
   return (
-    <section className='flex min-h-[650px] text-purple-100 flex-col gap-2 justify-center w-full items-center'>
+    <section className='flex min-h-162.5 text-purple-100 flex-col gap-2 justify-center w-full items-center'>
       <h2 className={showAllButton ? "text-center font-extrabold sm:text-5xl text-4xl" : "text-center font-extrabold sm:text-5xl text-4xl mt-20"}>{title}</h2>
       {proyectsData.map((data, index) => (
         <article key={index} className='flex gap-2 rounded-2xl m-8 overflow-hidden lg:pr-0 lg:pl-0 flex-col-reverse xl:flex-row lg:max-w-6xl xl:h-96 border-3 border-purple-400 justify-between items-center hover:border-purple-100 active:border-purple-100 transition duration-200 ease-out'>
@@ -17,7 +17,7 @@ export default function ProjectList({proyectsData = [], title, showAllButton = t
                             ))
                         ) : (
                             <p
-                            className="max-w-[400px] text-[1.3rem] font-semibold"
+                            className="max-w-100 text-[1.3rem] font-semibold"
                             >{data.description}</p>
                 )}
               </div>
@@ -55,13 +55,22 @@ export default function ProjectList({proyectsData = [], title, showAllButton = t
               </div>
             </div>
           </div>
-          <div className="flex lg:p-0 mask-clip-border">
+          <div className="flex lg:p-0 mask-clip-border relative">
             <img
             src={data.imgSrc}
             alt={data.imgScreen}
             className="max-h-96 h-auto object-contain aspect-video rounded-xl mask-clip-border"
             loading="lazy"
             />
+            <span>
+              {data.status === 3 ? (
+                <span className="absolute top-2 right-2 bg-green-600 text-white text-xs font-bold px-2 py-1 rounded">Completado</span>
+              ) : data.status === 2 ? (
+                <span className="absolute top-2 right-2 bg-yellow-500 text-black text-xs font-bold px-2 py-1 rounded">En Progreso</span>
+              ) : data.status === 1 ? (
+                <span className="absolute top-2 right-2 bg-red-600 text-white text-xs font-bold px-2 py-1 rounded">Planeado</span>
+              ) : null}
+            </span>
           </div>
         </article>
       ))}
